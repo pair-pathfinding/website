@@ -1,0 +1,91 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #394150;
+    background-color: #F3F4F6;
+    margin: 40px 100px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.intro {
+    margin-bottom: 80px;
+}
+
+.intro > p {
+    font-size: 1.2em;
+}
+
+.guide-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.guide-button {
+    background-color: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    padding: 1.5em;
+
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    width: 395px;
+
+    margin-bottom: 10px;
+}
+
+
+
+.guide-button:hover {
+    background-color: #F9FAFB;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+    /* .guide-button { */
+    .guide-button {
+        margin-right: 10px;
+    }
+}
+
+
+.guide-text-block {
+    margin-left: 18px;
+}
+
+.guide-text-block > h3 {
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.guide-text-block > p {
+    color: #6B7280;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 40px 20px;
+    }
+    .intro {
+        margin-bottom: 50px;
+    }
+}

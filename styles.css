@@ -10,6 +10,10 @@ body {
     margin: auto;
 }
 
+.container > h2 {
+    margin-top: 80px;
+}
+
 h1 {
     font-family: 'Inter', sans-serif;
 }
@@ -24,10 +28,15 @@ a {
 }
 
 .intro {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .intro > p {
+    font-size: 1.45em;
+    margin-top: -10px;
+}
+
+.container > p {
     font-size: 1.2em;
 }
 
